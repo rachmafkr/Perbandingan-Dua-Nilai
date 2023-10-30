@@ -20,7 +20,8 @@ public class SI_RegPagi22166019Latihan24PerbandinganDuaNilai {
         char ulangi;
         
         System.out.println("============Program Perbandingan Nilai===========");
-
+        
+        // Ketentuan output
         do {
             System.out.print("Masukkan nilai pertama: ");
             double nilai1 = input.nextDouble();
@@ -35,6 +36,7 @@ public class SI_RegPagi22166019Latihan24PerbandinganDuaNilai {
                 System.out.println("Hasil : " + nilai1 + " Sama dengan " + nilai2);
             }
 
+            // Keluaran nilai
             System.out.println();
             System.out.print("Ulangi perbandingan? (Ya/Tidak): ");
             ulangi = input.next().charAt(0);
